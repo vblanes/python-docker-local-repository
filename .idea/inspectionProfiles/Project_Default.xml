@@ -1,0 +1,70 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="13">
+            <item index="0" class="java.lang.String" itemvalue="pandas" />
+            <item index="1" class="java.lang.String" itemvalue="scipy" />
+            <item index="2" class="java.lang.String" itemvalue="bs4" />
+            <item index="3" class="java.lang.String" itemvalue="numpy" />
+            <item index="4" class="java.lang.String" itemvalue="pdfkit" />
+            <item index="5" class="java.lang.String" itemvalue="pytz" />
+            <item index="6" class="java.lang.String" itemvalue="arabic-reshaper" />
+            <item index="7" class="java.lang.String" itemvalue="django-weasyprint" />
+            <item index="8" class="java.lang.String" itemvalue="Django" />
+            <item index="9" class="java.lang.String" itemvalue="fastapi" />
+            <item index="10" class="java.lang.String" itemvalue="pydantic" />
+            <item index="11" class="java.lang.String" itemvalue="starlette" />
+            <item index="12" class="java.lang.String" itemvalue="typing-extensions" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E402" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N806" />
+          <option value="N803" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="false" level="WARNING" enabled_by_default="false">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="aleph.publicapi.views.base" />
+          <option value="aleph.base.models.Service.objects" />
+          <option value="aleph.base.models.Job.objects" />
+          <option value="django.http.request.HttpRequest.user" />
+          <option value="base.models.PEH.*" />
+          <option value="base.models.Question.objects" />
+          <option value="base.models.MultipleOptionQuestion.*" />
+          <option value="base.models.SelectableQuestionOption.*" />
+          <option value="base.models.QuestionGroup.*" />
+          <option value="base.models.Questionnaire.*" />
+          <option value="base.models.Timepoint.*" />
+          <option value="base.models.Answer.*" />
+          <option value="accounts.models.Researcher.objects" />
+          <option value="accounts.models.Observer.*" />
+          <option value="tuple.*" />
+          <option value="base.models.NumericalQuestion.*" />
+          <option value="django.http.request.HttpRequest.data" />
+          <option value="aleph.publicapi.tests.register_service_test.base" />
+          <option value="aleph.publicapi.validators.base" />
+          <option value="models.Backend.objects" />
+          <option value="models.Backend.DoesNotExist" />
+          <option value="models.Job.objects" />
+          <option value="models.Job.DoesNotExist" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
